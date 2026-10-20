@@ -1,0 +1,970 @@
+{
+  "meta": {
+    "revision": "1",
+    "synthetic": true,
+    "note": "Fictional, human-reviewed example complaints for a fictional college. Contains no real people or records.",
+    "split": "30 train + 10 held-out test per department (90 train / 30 test)"
+  },
+  "samples": [
+    {
+      "id": "S001",
+      "text": "The Wi-Fi in the library keeps disconnecting every few minutes.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S002",
+      "text": "Cannot log in to the student portal, it says my password is invalid.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S003",
+      "text": "Projector in room 101 does not show any image from my laptop.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S004",
+      "text": "Lab computers in the physics lab are very slow and freeze often.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S005",
+      "text": "Need MATLAB installed on the department computers for next week's class.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S006",
+      "text": "Internet is not working in the hostel common room.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S007",
+      "text": "The printer on the second floor shows offline and prints nothing.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S008",
+      "text": "Email account is locked and I cannot access my university mail.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S009",
+      "text": "Software license for the design tool has expired on all lab systems.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S010",
+      "text": "The smart board in the seminar hall will not turn on or respond to touch.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S011",
+      "text": "VPN connection to the college network fails with a timeout error.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S012",
+      "text": "Keyboard and mouse are not detected on computer number 12 in the lab.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S013",
+      "text": "The network cable port in the staff room has no connectivity.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S014",
+      "text": "Online exam portal crashes when students submit their answers.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S015",
+      "text": "Antivirus has flagged a virus on the faculty desktop and it needs cleaning.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S016",
+      "text": "Wi-Fi password is rejected on the new access point near the canteen.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S017",
+      "text": "The server for the attendance application is down since the morning.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S018",
+      "text": "Projector bulb is dim and the display looks blurry with flickering colors.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S019",
+      "text": "Cannot connect my laptop to the campus wireless network at all.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S020",
+      "text": "Learning management system is not loading any course pages.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S021",
+      "text": "The lab computer shows a blue screen and restarts repeatedly.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S022",
+      "text": "Speakers and microphone in the conference room are not working with the video call software.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S023",
+      "text": "Please reset my account credentials for the library catalogue login.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S024",
+      "text": "The websites are blocked by the firewall even for academic research.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S025",
+      "text": "Desktop in the accounts section will not boot and needs repair.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S026",
+      "text": "Slow download speed on the broadband connection in the computer center.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S027",
+      "text": "Zoom application is not installed on the classroom computer.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S028",
+      "text": "Scanner software is not recognizing the device attached to the USB port.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S029",
+      "text": "The router in the hostel corridor keeps rebooting and the signal drops.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S030",
+      "text": "Two-factor authentication code never arrives when I sign in to the portal.",
+      "label": "IT Support",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S031",
+      "text": "Water is leaking from the ceiling in the corridor of the science block.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S032",
+      "text": "Tube light in classroom 305 is flickering and needs replacement.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S033",
+      "text": "The bench in the lecture hall is broken and has a loose leg.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S034",
+      "text": "Washroom tap on the ground floor is dripping continuously.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S035",
+      "text": "The air conditioner in the seminar hall is not cooling at all.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S036",
+      "text": "Ceiling fan in room 210 makes a loud noise and wobbles.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S037",
+      "text": "Door lock of the storeroom is jammed and the door will not close properly.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S038",
+      "text": "The drinking water cooler near the canteen is not providing cold water.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S039",
+      "text": "Dustbins in the hostel corridor are overflowing and smell bad.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S040",
+      "text": "Window glass in the library reading hall is cracked.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S041",
+      "text": "Broken tiles on the staircase landing are uneven and need repair.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S042",
+      "text": "Power sockets in the classroom are loose and the plug keeps slipping out.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S043",
+      "text": "The corridor lights on the third floor are not working since last night.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S044",
+      "text": "Toilet flush in the boys washroom is not working and needs plumbing.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S045",
+      "text": "Paint is peeling off the walls in the staff room and there is dampness.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S046",
+      "text": "The lift in the main block is stuck between floors and out of service.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S047",
+      "text": "Chairs in the examination hall are damaged and wobble when someone sits.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S048",
+      "text": "Pests and cockroaches are seen in the canteen kitchen area.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S049",
+      "text": "Gate hinge of the parking area is rusted and the gate does not open.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S050",
+      "text": "The whiteboard in room 118 is detached from the wall and hanging.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S051",
+      "text": "Garden area behind the hostel is overgrown and needs cleaning.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S052",
+      "text": "Blocked drain is causing water to collect near the entrance after rain.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S053",
+      "text": "Roof leakage in the laboratory is damaging the cupboards.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S054",
+      "text": "Light bulbs in the parking lot are fused and the area is dark at night.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S055",
+      "text": "The handle of the classroom door is broken and falls off.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S056",
+      "text": "Water supply to the third floor washrooms is not reaching since morning.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S057",
+      "text": "Curtains in the auditorium are torn and need to be replaced.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S058",
+      "text": "The hostel room cupboard hinge is broken and the shelf has fallen.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S059",
+      "text": "Sewage smell is coming from the ground floor restroom.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S060",
+      "text": "Cracks have appeared in the wall of the old building near the playground.",
+      "label": "Facilities",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S061",
+      "text": "I need a duplicate student ID card because I lost mine.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S062",
+      "text": "Please issue a bonafide certificate for my bank loan application.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S063",
+      "text": "Request for a transfer certificate and my academic records.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S064",
+      "text": "Classroom allocation for the guest lecture next Friday is required.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S065",
+      "text": "My fee receipt is missing from the accounts record.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S066",
+      "text": "I want to apply for a no objection letter for an internship.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S067",
+      "text": "The ID card photo is wrong and the name is misspelled on it.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S068",
+      "text": "Need an attested copy of my marksheet from the examination office.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S069",
+      "text": "Request to change my registered mobile number in the college records.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S070",
+      "text": "Please allot a larger hall for the department seminar on Monday.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S071",
+      "text": "Letter of recommendation required from the principal's office.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S072",
+      "text": "The scholarship form is pending and no one has updated its status.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S073",
+      "text": "Hostel admission letter has not been issued yet.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S074",
+      "text": "Need a course completion certificate for my job application.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S075",
+      "text": "Request for a timetable change because two classes overlap.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S076",
+      "text": "My attendance record shows incorrect data and needs correction.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S077",
+      "text": "Library membership card renewal is pending with the office.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S078",
+      "text": "Permission letter is needed to conduct a campus event.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S079",
+      "text": "Please issue a character certificate for my visa documents.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S080",
+      "text": "Bus pass application has not been processed by the transport office.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S081",
+      "text": "Admission documents verification is incomplete and the clerk is unavailable.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S082",
+      "text": "Request to book the room for the club meeting on Wednesday.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S083",
+      "text": "Exam hall ticket is not issued and the registrar has not responded.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S084",
+      "text": "Update my date of birth in the university records.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S085",
+      "text": "Fee refund request is pending for more than a month.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S086",
+      "text": "I need a migration certificate to move to another university.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S087",
+      "text": "The notice about the holiday schedule was not circulated to students.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S088",
+      "text": "Request to correct the spelling of my father's name on the degree certificate.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S089",
+      "text": "Application for leave approval has been stuck with the head of department office.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S090",
+      "text": "Please provide a copy of the official college letter for my passport application.",
+      "label": "Administration",
+      "split": "train",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S091",
+      "text": "Wi-Fi is down in the computer lab and nobody can browse.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S092",
+      "text": "My laptop cannot reach the internet from the seminar room.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S093",
+      "text": "The overhead projector displays a green tint and no sound comes out.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S094",
+      "text": "Student login page throws an error when entering the correct password.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S095",
+      "text": "Install Python and Visual Studio on all lab machines before the workshop.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S096",
+      "text": "Printer in the staff room is stuck and the print queue will not clear.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S097",
+      "text": "Network is extremely slow during online assessments.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S098",
+      "text": "Computer in the reception freezes and the monitor goes black.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S099",
+      "text": "Our department email stopped receiving messages since yesterday.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S100",
+      "text": "The wireless access point near the auditorium is not broadcasting a signal.",
+      "label": "IT Support",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S101",
+      "text": "A pipe has burst and water is flooding the basement storage.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S102",
+      "text": "The fan in the lecture room is rattling loudly and shaking.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S103",
+      "text": "Several lights are out in the hallway near the stairs.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S104",
+      "text": "Seats in the auditorium are torn and some are broken.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S105",
+      "text": "The air conditioning in the conference room is leaking water onto the floor.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S106",
+      "text": "Restroom taps are broken and there is no water supply.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S107",
+      "text": "The main door of the hostel does not lock and the latch is damaged.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S108",
+      "text": "Rainwater is seeping through the wall of the classroom.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S109",
+      "text": "A tree branch has fallen on the walkway and blocks the path.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S110",
+      "text": "The cafeteria tables are wobbly and the paint is chipped.",
+      "label": "Facilities",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S111",
+      "text": "I lost my college identity card and need a replacement.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S112",
+      "text": "Kindly issue a study certificate to submit at the embassy.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S113",
+      "text": "We need a classroom assigned for the alumni meeting on Thursday.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S114",
+      "text": "My marks card shows the wrong birth date and must be corrected in the records.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S115",
+      "text": "The scholarship amount has not been credited and the office has not replied.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S116",
+      "text": "Request for a letter confirming my enrollment for a bank account.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S117",
+      "text": "Provisional certificate has not been delivered yet.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S118",
+      "text": "Please reserve the seminar hall for the placement briefing next week.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S119",
+      "text": "Application for a fee concession is pending with the accounts office.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    },
+    {
+      "id": "S120",
+      "text": "Need a copy of my admission record for a transfer.",
+      "label": "Administration",
+      "split": "test",
+      "synthetic": true,
+      "reviewed": true
+    }
+  ]
+}

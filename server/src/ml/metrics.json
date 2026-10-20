@@ -1,0 +1,64 @@
+{
+  "modelVersion": "nb-r1-4677bcfb",
+  "datasetRevision": "1",
+  "trainedOn": 90,
+  "testedOn": 30,
+  "accuracy": 0.9333333333333333,
+  "perClass": {
+    "Administration": {
+      "precision": 1,
+      "recall": 0.9,
+      "f1": 0.9473684210526316,
+      "support": 10
+    },
+    "Facilities": {
+      "precision": 0.8333333333333334,
+      "recall": 1,
+      "f1": 0.9090909090909091,
+      "support": 10
+    },
+    "IT Support": {
+      "precision": 1,
+      "recall": 0.9,
+      "f1": 0.9473684210526316,
+      "support": 10
+    }
+  },
+  "confusion": {
+    "Administration": {
+      "Administration": 9,
+      "Facilities": 1,
+      "IT Support": 0
+    },
+    "Facilities": {
+      "Administration": 0,
+      "Facilities": 10,
+      "IT Support": 0
+    },
+    "IT Support": {
+      "Administration": 0,
+      "Facilities": 1,
+      "IT Support": 9
+    }
+  },
+  "maxTrainTestJaccard": 0.3333333333333333,
+  "reviewQueueAtThreshold": {
+    "threshold": 0.65,
+    "sentToReview": 8,
+    "confidentButWrong": 0
+  },
+  "errors": [
+    {
+      "text": "The overhead projector displays a green tint and no sound comes out.",
+      "actual": "IT Support",
+      "predicted": "Facilities",
+      "confidence": 0.457
+    },
+    {
+      "text": "Please reserve the seminar hall for the placement briefing next week.",
+      "actual": "Administration",
+      "predicted": "Facilities",
+      "confidence": 0.406
+    }
+  ]
+}

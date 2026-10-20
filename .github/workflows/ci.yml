@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  server:
+    name: Server (typecheck, build, tests, classifier evaluation)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: server
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run build
+      # Integration tests use an in-memory MongoDB: no secrets or cloud database needed.
+      - run: npm test
+      - name: Reproduce classifier evaluation
+        run: npm run train
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ml-evaluation
+          path: |
+            docs/ml-evaluation.md
+            server/src/ml/metrics.json
+        if: always()
+
+  client:
+    name: Client (typecheck, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: client
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: client/package-lock.json
+      - run: npm ci
+      - run: npx tsc -b
+      - run: npm run build
+        env:
+          VITE_API_URL: https://example.invalid

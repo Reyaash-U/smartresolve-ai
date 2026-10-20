@@ -1,0 +1,19 @@
+# Render Blueprint for the API (free plan). The database lives in MongoDB Atlas, not on Render's ephemeral disk.
+services:
+  - type: web
+    name: smartresolve-api
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: MONGODB_URI
+        sync: false # paste your Atlas connection string in the Render dashboard
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CLIENT_ORIGIN
+        sync: false # your Cloudflare Pages URL, e.g. https://smartresolve.pages.dev (no trailing slash)
