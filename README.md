@@ -8,9 +8,9 @@ Intelligent issue reporting, routing and resolution for a fictional college camp
 
 | | URL |
 |---|---|
-| Web app | _add after deployment_ |
-| API health | _add after deployment_ (`/health`) |
-| Repository | _add after pushing_ |
+| Web app | https://smartresolve-ai.reyaashprogrammer.workers.dev |
+| API health | https://smartresolve-api-30pa.onrender.com/health |
+| Repository | https://github.com/Reyaash-U/smartresolve-ai |
 
 The API runs on Render's free tier and sleeps after ~15 min idle: the first request can take about a minute. The app shows a "waking up" message and retries automatically.
 
