@@ -24,7 +24,7 @@ Order matters because each step needs the previous step's URL: **Atlas → Rende
 1. Cloudflare → **Workers & Pages → Create → Pages → Connect to Git** → same repo.
 2. Framework preset *None*; **Root directory** `client`; **Build command** `npm run build`; **Output directory** `dist`.
 3. Environment variables: `VITE_API_URL` = your Render URL (no trailing slash), `NODE_VERSION` = `22`.
-4. Deploy. `client/public/_redirects` makes deep links work (SPA fallback).
+4. If the form shows a **Deploy command** (Workers flow), use `npx wrangler deploy`. `client/wrangler.jsonc` serves `dist` and makes deep links work (single-page-app fallback). Do **not** add a `_redirects` catch-all (`/* /index.html 200`): the Workers flow rejects it as an infinite loop. (On the older Pages-only flow there is no deploy command and a `_redirects` file is the way to get the fallback.)
 
 ## 4. Close the loop
 
